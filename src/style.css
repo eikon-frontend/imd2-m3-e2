@@ -1,0 +1,43 @@
+/* ==========================================================
+   Base : polices et couleurs, rien à modifier ici
+   ========================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e3eef0;
+  color: #12303a;
+  font-family: "Inter", sans-serif;
+}
+
+.review {
+  background-color: #ffffff;
+}
+
+.review-publication {
+  color: #2f7a86;
+  font-weight: 600;
+}
+
+.review-title,
+.review-quote {
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+}
+
+.review-link {
+  background-color: #b84a1b;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+/* ==========================================================
+   À compléter : la mise en page
+   D'abord la version mobile, sans media query.
+   Puis une seule media query pour la version desktop.
+   ========================================================== */
